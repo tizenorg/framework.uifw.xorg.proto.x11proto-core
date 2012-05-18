@@ -16,7 +16,7 @@ Description: %{summary}
 
 
 %prep
-%setup -q -n xproto-%{version}
+%setup -q -n %{name}-%{version}
 
 
 %build
