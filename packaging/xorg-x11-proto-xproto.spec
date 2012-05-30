@@ -6,6 +6,7 @@ Group:      Development/System
 License:    MIT
 URL:        http://www.x.org
 Source0:    http://xorg.freedesktop.org/releases/individual/proto/xproto-%{version}.tar.gz
+Source1001: packaging/xorg-x11-proto-xproto.manifest 
 Provides:   xproto
 BuildRequires: pkgconfig(xorg-macros)
 
@@ -20,6 +21,7 @@ Description: %{summary}
 
 
 %build
+cp %{SOURCE1001} .
 
 %reconfigure --disable-shared
 
@@ -33,6 +35,7 @@ rm -rf %{buildroot}
 
 
 %files
+%manifest xorg-x11-proto-xproto.manifest
 %defattr(-,root,root,-)
 %{_libdir}/pkgconfig/xproto.pc
 %{_includedir}/X11/*.h
