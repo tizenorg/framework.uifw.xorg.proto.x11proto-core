@@ -2,7 +2,7 @@ Name:       xorg-x11-proto-xproto
 Summary:    X.Org X11 Protocol xproto
 Version:    7.0.20
 Release:    0
-Group:      Development/System
+Group:      Graphics/X Window System
 License:    MIT
 URL:        http://www.x.org
 Source0:    %{name}-%{version}.tar.gz
