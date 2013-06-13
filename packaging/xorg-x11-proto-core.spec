@@ -1,6 +1,6 @@
 Name:     xorg-x11-proto-core
 Summary:  X.Org X11 Protocol xproto
-Version:  7.0.23
+Version:  7.0.25
 Release:  2
 Group:    Development/System
 License:  MIT
