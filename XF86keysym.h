@@ -233,5 +233,5 @@
 #define XF86XK_LogGrabInfo	0x1008FE25   /* print all active grabs to log */
 
 /* Keys for special action keys for Tizen mobile */
-#define XF86XK_AudioPlayPause»  0x1008E001   /* Start playing of audio or pause audio playing (toggle) */
+#define XF86XK_AudioPlayPause   0x1008E001   /* Start playing of audio or pause audio playing (toggle) */
 
