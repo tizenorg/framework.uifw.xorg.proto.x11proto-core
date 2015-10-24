@@ -210,6 +210,8 @@
 #define XF86XK_TouchpadOn	0x1008FFB0   /* The touchpad got switched on */
 #define XF86XK_TouchpadOff	0x1008FFB1   /* The touchpad got switched off */
 
+#define XF86XK_AudioMicMute	0x1008FFB2   /* Mute the Mic from the system */
+
 /* Keys for special action keys (hot keys) */
 /* Virtual terminals on some operating systems */
 #define XF86XK_Switch_VT_1	0x1008FE01
@@ -234,4 +236,116 @@
 
 /* Keys for special action keys for Tizen mobile */
 #define XF86XK_AudioPlayPause   0x1008E001   /* Start playing of audio or pause audio playing (toggle) */
+
+/* Key definitions for Tizen various profiles (e.g. mobile/wearable/tv and etc) */
+#define XF86XK_Home 0x10090001
+#define XF86XK_Menu 0x10090002
+#define XF86XK_Camera   0x10090003
+#define XF86XK_Camera_Full  0x10090004
+#define XF86XK_SoftKBD  0x10090005
+#define XF86XK_QuickPanel   0x10090006
+#define XF86XK_Voice    0x10090007
+#define XF86XK_Call 0x10090008
+#define XF86XK_VoiceWakeUp_LPSD 0x10090009
+#define XF86XK_VoiceWakeUp  0x1009000A
+#define XF86XK_Exit 0x1009000B
+#define XF86XK_Info 0x1009000C
+#define XF86XK_SysMenu  0x1009000D
+#define XF86XK_SimpleMenu   0x1009000E
+#define XF86XK_More 0x1009000F
+#define XF86XK_Recommend    0x10090010
+#define XF86XK_SoundMode    0x10090011
+#define XF86XK_AudioDescription 0x10090012
+#define XF86XK_PreviousChapter  0x10090013
+#define XF86XK_NextChapter  0x10090014
+#define XF86XK_LeftPage 0x10090015
+#define XF86XK_RightPage    0x10090016
+
+/* Key definitions for Tizen tv profile */
+#define XF86XK_TV   0x100A0001
+#define XF86XK_ChannelList  0x100A0002
+#define XF86XK_LowerChannel 0x100A0003
+#define XF86XK_RaiseChannel 0x100A0004
+#define XF86XK_ChannelGuide 0x100A0005
+#define XF86XK_ChannelAddDel    0x100A0006
+#define XF86XK_ChannelAutoTune  0x100A0007
+#define XF86XK_PreviousChannel  0x100A0008
+#define XF86XK_FavoriteChannel  0x100A0009
+#define XF86XK_PictureSize  0x100A000A
+#define XF86XK_PictureMode  0x100A000B
+#define XF86XK_Hdmi 0x100A000C
+#define XF86XK_AspectRatio169   0x100A000D
+#define XF86XK_UsbHub   0x100A000E
+#define XF86XK_EManual  0x100A000F
+#define XF86XK_FactoryMode  0x100A0010
+#define XF86XK_StillPicture 0x100A0011
+#define XF86XK_CinemaMode   0x100A0012
+#define XF86XK_Antena   0x100A0013
+#define XF86XK_Game3D   0x100A0014
+#define XF86XK_WheelLeftKey 0x100A0015
+#define XF86XK_WheelRightKey    0x100A0016
+#define XF86XK_NumberPad    0x100A0017
+#define XF86XK_MTS  0x100A0018
+#define XF86XK_3XSpeed  0x100A0019
+#define XF86XK_3D   0x100A001A
+#define XF86XK_TTXMIX   0x100A001B
+#define XF86XK_SRSSXT   0x100A001C
+#define XF86XK_WIFIPairing  0x100A001D
+#define XF86XK_DualView 0x100A001E
+#define XF86XK_EnergySaving 0x100A001F
+#define XF86XK_Caption  0x100A0020
+#define XF86XK_Apps 0x100A0021
+#define XF86XK_FamilyMode   0x100A0022
+#define XF86XK_Netflix  0x100A0023
+#define XF86XK_PIP  0x100A0024
+#define XF86XK_SoftWakeup   0x100A0025
+#define XF86XK_Wakeup   0x100A0026
+#define XF86XK_PlayBack 0x100A0027
+
+/* Key definitions for Tizen specific vendors TV */
+#define XF86XK_DTV  0x10100001
+#define XF86XK_PanelDown    0x10100002
+#define XF86XK_PanelEnter   0x10100003
+#define XF86XK_PanelUp  0x10100004
+#define XF86XK_PanelExit    0x10100005
+#define XF86XK_PanelPlus    0x10100006
+#define XF86XK_PanelMinus   0x10100007
+#define XF86XK_PanelOn  0x10100008
+#define XF86XK_STBPower 0x10100009
+#define XF86XK_PIPChannelUp 0x1010000A
+#define XF86XK_PIPChannelDown   0x1010000B
+#define XF86XK_BTColorMecha 0x1010000C
+#define XF86XK_BTPairing    0x1010000D
+#define XF86XK_BTHotkey 0x1010000E
+#define XF86XK_BTContentsBar    0x1010000F
+#define XF86XK_BTVoice  0x10100010
+#define XF86XK_BTDevice 0x10100011
+#define XF86XK_BTApps   0x10100012
+#define XF86XK_MBRRepeat    0x10100013
+#define XF86XK_MBRLink  0x10100014
+#define XF86XK_MBRTV    0x10100015
+#define XF86XK_MBRSTBGuide  0x10100016
+#define XF86XK_MBRBDPopup   0x10100017
+#define XF86XK_MBRBDDVDPower    0x10100018
+#define XF86XK_MBRSetupFailure  0x10100019
+#define XF86XK_MBRSetup 0x1010001A
+#define XF86XK_MBRWatchTV   0x1010001B
+#define XF86XK_MBRClear 0x1010001C
+#define XF86XK_MBRWatchMovie    0x1010001D
+#define XF86XK_MBRMenu  0x1010001E
+#define XF86XK_MBRConfirm   0x1010001F
+#define XF86XK_TVSNS    0x10100020
+#define XF86XK_DVR  0x10100021
+#define XF86XK_SoccerMode   0x10100022
+#define XF86XK_Amazon   0x10100023
+#define XF86XK_FamilyHub    0x10100024
+#define XF86XK_HDMICEC  0x10100025
+#define XF86XK_ExtraApp 0x10100026
+#define XF86XK_LSGT 0x10100027
+
+#define XF86XK_LFDSet           0x10100101
+#define XF86XK_LFDUnset         0x10100102
+#define XF86XK_LFDPowerOff      0x10100103
+#define XF86XK_LFDScreenLock    0x10100104
+#define XF86XK_LFDMagicInfo     0x10100105
 
